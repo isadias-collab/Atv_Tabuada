@@ -1,0 +1,30 @@
+body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #b9eddd;
+        text-align: center;
+        margin: 20px;
+}   
+button {
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        background-color: #258667;
+}
+
+#resultado {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+}
+.card {
+        background-color: white;
+        padding: 15px;
+        width: 100px;
+        border-radius: 8px;
+        text-align: left;
+}
+.card h3 {
+        margin-top: 0;
+        text-align: center;
+}
